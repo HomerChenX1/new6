@@ -1,10 +1,8 @@
-err.log
-invest_cmd.log
-invest.log
+*.log
+*.pyc
 method_lt.py
 mthd_stop_loss.py
 symbols.txt
 test.csv
 test.ods
-VT_Lt.png
-VTI_Lt.png
+*.png
