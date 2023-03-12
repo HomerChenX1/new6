@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="cp950"?>
+<config>
+    <etf symbol="AGG" type="B" name="美洲美國債券_1L"/>
+	<etf symbol="AGGU" type="B" name="累積型世界債_1L" disabled="T" notes="無股息"/>
+    <etf symbol="BIV" type="B" name="先鋒中期債_1L"/>
+    <etf symbol="BLV" type="B" name="先鋒長期債_1L"/>
+    <etf symbol="BND" type="B" name="先鋒美總體債市_1L"/>
+	<etf symbol="BNDW" type="B" name="先鋒全世界債券_1L"/>
+    <etf symbol="BSV" type="B" name="先鋒短期債_1L"/>
+    <etf symbol="BWX" type="B" name="李門兄弟國際公債_1L"/>
+    <etf symbol="CWB" type="B" name="美國可轉債_1L"/>
+    <etf symbol="EMB" type="B" name="新興市場債E_1L"/>
+    <etf symbol="HYG" type="B" name="高收益公司債_1L"/>
+    <etf symbol="IEF" type="B" name="CBOE7-10年公債_1L"/>
+    <etf symbol="IGOV" type="B" name="國際中期公債_1L"/>
+    <etf symbol="ITM" type="B" name="李門兄弟中期地方政府債_1L"/>
+    <etf symbol="JNK" type="B" name="巴克萊高收益債_1L"/>
+    <etf symbol="JQC" type="B" name="可轉債J_1L"/>
+    <etf symbol="LQD" type="B" name="高級公司債_1L"/>
+    <etf symbol="MBB" type="B" name="MBS固定利率債券_1L"/>
+    <etf symbol="PCH" type="B" name="林業REITC_1L"/>
+    <etf symbol="PCY" type="B" name="新興市場債P_1L"/>
+    <etf symbol="PWZ" type="B" name="已保險加州地方政府債_1L"/>
+    <etf symbol="PZA" type="B" name="已保險美國地方政府債_1L"/>
+    <etf symbol="RWX" type="B" name="道瓊威爾遜美國除外REIT_1L"/>
+    <etf symbol="RYN" type="B" name="林業REITR_1L"/>
+    <etf symbol="SHM" type="B" name="李門兄弟短期地方政府債_1L" disabled="T" notes="TOO MANY WRONG DATA" />
+    <etf symbol="SHV" type="B" name="李門兄弟公債_1S" disabled="T" notes="TOO MANY WRONG DATA" />
+    <etf symbol="SHY" type="B" name="李門兄弟1-3年公債_1L"/>
+    <etf symbol="TBT" type="B" name="美國債券_1S"/>
+    <etf symbol="TFI" type="B" name="李門兄弟地方政府債_1L"/>
+    <etf symbol="TIP" type="B" name="抗通貨膨脹債券_1L"/>
+	<etf symbol="VTIP" type="B" name="先鋒短期抗通貨膨脹債券_1L"/>
+    <etf symbol="TLT" type="B" name="李門兄弟20年國債_1L"/>
+    <etf symbol="WIP" type="B" name="國際抗通貨膨脹債券_1L"/>
+    <etf symbol="IEI" type="B" name="巴克萊3_7年公債_1L"/>
+    <etf symbol="VNQI" type="B" name="前鋒國外不動產_1L"/>
+    <etf symbol="BAC" type="E" name="美國銀行_1L"/>
+    <etf symbol="BAM" type="E" name="林業公司_1L" disabled="T" notes="CSV LEN TOO SHORT"/>
+    <etf symbol="BJK" type="E" name="博弈_1L"/>
+    <etf symbol="BRK-B" type="E" name="波夏克_1L"/>
+    <etf symbol="CGW" type="E" name="S&amp;P全球水資源_1L"/>
+    <etf symbol="CHT" type="E" name="中華電信_1T"/>
+    <etf symbol="CUT" type="E" name="紙業木材_1L"/>
+    <etf symbol="DBA" type="E" name="農產品_1L"/>
+    <etf symbol="DBB" type="E" name="賤金屬_1L"/>
+    <etf symbol="DBC" type="E" name="德意志銀行商品_1L" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="DBE" type="E" name="能源D_1L" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="DBO" type="E" name="石油D_1L"/>
+    <etf symbol="DEM" type="E" name="新興市場高殖利_1L"/>
+    <etf symbol="DJP" type="E" name="道瓊友邦商品19_1L"/>
+    <etf symbol="DOG" type="E" name="道瓊_1S"/>
+    <etf symbol="DVY" type="E" name="高殖利率股D_1L"/>
+    <etf symbol="ECH" type="E" name="MSCI智利_1L"/>
+    <etf symbol="EEB" type="E" name="全球金磚四國_1L" disabled="T" notes="TOO MANY WRONG DATA" />
+    <etf symbol="EEM" type="E" name="MSCI開發中國家_1L"/>
+    <etf symbol="EFA" type="E" name="MSCI歐澳遠東_1L"/>
+    <etf symbol="EFZ" type="E" name="MSCI_EAFE_1S"/>
+    <etf symbol="EPI" type="E" name="印度_1L"/>
+    <etf symbol="EPP" type="E" name="MSCI太平洋日本除外_1L"/>
+    <etf symbol="EUM" type="E" name="MSCI新興市場型_1S"/>
+    <etf symbol="EWA" type="E" name="摩根澳大利亞_1L"/>
+    <etf symbol="EWC" type="E" name="加拿大_1L"/>
+    <etf symbol="EWH" type="E" name="摩根香港_1L"/>
+    <etf symbol="EWJ" type="E" name="摩根日本_1L"/>
+    <etf symbol="EWM" type="E" name="摩根馬來西亞_1L"/>
+    <etf symbol="EWS" type="E" name="摩根新加坡_1L"/>
+    <etf symbol="EWT" type="E" name="摩根台灣_1L"/>
+    <etf symbol="EWW" type="E" name="墨西哥_1L"/>
+    <etf symbol="EWY" type="E" name="摩根南韓_1L"/>
+    <etf symbol="EWZ" type="E" name="美洲巴西_1L"/>
+    <etf symbol="EZA" type="E" name="MSCI南非_1L"/>
+    <etf symbol="EZU" type="E" name="MSCI歐元區_1L"/>
+    <etf symbol="FDX" type="E" name="FedEx_1L"/>
+    <etf symbol="GDX" type="E" name="MSCI金礦_1L"/>
+    <etf symbol="GE" type="E" name="奇異電器_1L"/>
+    <etf symbol="GLD" type="E" name="黃金G_1L"/>
+    <etf symbol="GM" type="E" name="通用汽車_1L"/>
+    <etf symbol="GSG" type="E" name="高盛商品_1L" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="GXC" type="E" name="S&amp;P中國_1L"/>
+    <etf symbol="ICF" type="E" name="不動產C_1L"/>
+    <etf symbol="IDU" type="E" name="道瓊美國公用事業_1L"/>
+    <etf symbol="IDX" type="E" name="印尼_1L"/>
+    <etf symbol="IEV" type="E" name="S&amp;P歐洲350_1L"/>
+    <etf symbol="IGE" type="E" name="北美天然資源_1L"/>
+    <etf symbol="IGM" type="E" name="科技G_1L"/>
+    <etf symbol="IGV" type="E" name="軟體_1L"/>
+    <etf symbol="IHE" type="E" name="藥物_1L"/>
+    <etf symbol="IHF" type="E" name="健保提供_1L"/>
+    <etf symbol="IHI" type="E" name="藥物設備_1L"/>
+    <etf symbol="ILF" type="E" name="S&amp;P拉美40_1L"/>
+    <etf symbol="IWM" type="E" name="羅素2000_1L"/>
+    <etf symbol="IXC" type="E" name="S&amp;P全球能源業_1L"/>
+    <etf symbol="IXG" type="E" name="S&amp;P全球金融_1L"/>
+    <etf symbol="IXJ" type="E" name="S&amp;P全球健保_1L"/>
+    <etf symbol="IYE" type="E" name="能源業Y_1L"/>
+    <etf symbol="IYF" type="E" name="道瓊美國金融_1L"/>
+    <etf symbol="IYH" type="E" name="健保_1L"/>
+    <etf symbol="IYJ" type="E" name="工業_1L"/>
+    <etf symbol="IYK" type="E" name="消費行業I_1L"/>
+    <etf symbol="IYM" type="E" name="原物料_1L"/>
+    <etf symbol="IYT" type="E" name="道瓊運輸_1L"/>
+    <etf symbol="IYW" type="E" name="科技Y_1L"/>
+    <etf symbol="KO" type="E" name="可口可樂_1L"/>
+    <etf symbol="LMT" type="E" name="洛克希德馬丁_1L"/>
+    <etf symbol="MDY" type="E" name="中型股_1L"/>
+    <etf symbol="MOO" type="E" name="農業_1L"/>
+    <etf symbol="PBW" type="E" name="全球能源業綠色_1L"/>
+    <etf symbol="PEY" type="E" name="高殖利率股P_1L"/>
+    <etf symbol="PG" type="E" name="寶潔_1L"/>
+    <etf symbol="PHO" type="E" name="水資源_1L"/>
+    <etf symbol="PID" type="E" name="PowerShares全球股票收益_1L"/>
+    <etf symbol="PPA" type="E" name="國防_1L"/>
+    <etf symbol="PRU" type="E" name="保德信_1L"/>
+    <etf symbol="PSQ" type="E" name="那斯達克100_1S"/>
+    <etf symbol="PXE" type="E" name="能源探勘_1L"/>
+    <etf symbol="QAI" type="E" name="對沖基金策略_1L"/>
+    <etf symbol="QQQ" type="E" name="那斯達克100_1L"/>
+    <etf symbol="RSX" type="E" name="MSCI蘇俄_1L" disabled="T" notes="TOO MANY WRONG DATA" />
+    <etf symbol="RWM" type="E" name="羅素2000_1S"/>
+    <etf symbol="RWR" type="E" name="道瓊威許不動產_1L"/>
+    <etf symbol="SBUX" type="E" name="星巴克_1L"/>
+    <etf symbol="SDY" type="E" name="高殖利率股S_1L"/>
+    <etf symbol="SH" type="E" name="史坦普500_1S"/>
+    <etf symbol="SMH" type="E" name="半導體H_1L"/>
+    <etf symbol="SOXX" type="E" name="半導體_1L"/>
+    <etf symbol="SPY" type="E" name="S&amp;P500_1L"/>
+    <etf symbol="THD" type="E" name="摩根泰國_1L"/>
+    <etf symbol="TM" type="E" name="豐田汽車_1L"/>
+    <etf symbol="TSM" type="E" name="台積電_1T"/>
+    <etf symbol="TUR" type="E" name="MSCI土耳其_1L"/>
+    <etf symbol="UNG" type="E" name="天然氣期貨_1L"/>
+    <etf symbol="UPS" type="E" name="UPS_1L"/>
+    <etf symbol="USO" type="E" name="石油U_1L" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="VALE" type="E" name="巴西淡水河谷_1L"/>
+    <etf symbol="VAW" type="E" name="前鋒原物料_1L"/>
+    <etf symbol="VCR" type="E" name="前鋒非消費循環_1L"/>
+    <etf symbol="VDC" type="E" name="前鋒消費品_1L"/>
+    <etf symbol="VDE" type="E" name="前鋒能源業_1L"/>
+    <etf symbol="VEU" type="E" name="前鋒EFA_1L"/>
+    <etf symbol="VFH" type="E" name="前鋒金融_1L"/>
+    <etf symbol="VGK" type="E" name="前鋒歐洲_1L"/>
+    <etf symbol="VGT" type="E" name="前鋒資訊科技_1L"/>
+    <etf symbol="VIG" type="E" name="前鋒高殖利率股_1L"/>
+    <etf symbol="VIS" type="E" name="前鋒工業_1L"/>
+    <etf symbol="VNM" type="E" name="越南_1L"/>
+    <etf symbol="VNQ" type="B" name="前鋒不動產_1L"/>
+    <etf symbol="VOX" type="E" name="電信服務_1L"/>
+    <etf symbol="VPL" type="E" name="前鋒太平洋_1L"/>
+    <etf symbol="VPU" type="E" name="前鋒公用_1L"/>
+    <etf symbol="VT" type="E" name="先鋒全球股票_1L" notes="權重 1"/>
+    <etf symbol="VTI" type="E" name="先鋒美國總體股市_1L" notes="權重 0.6"/>
+	<etf symbol="VXUS" type="E" name="先鋒總體國際股票ex-us_1L" notes="權重 0.4"/>
+	<etf symbol="VWRA" type="E" name="先鋒累積型全球股市_1L" disabled="T" notes="權重 0.8, 無股利"/>
+    <etf symbol="VWO" type="E" name="前鋒新興市場_1L"/>
+	<etf symbol="VTV" type="E" name="先鋒美國價值型股市_1L"/>
+    <etf symbol="VYM" type="E" name="高殖利率股V_1L"/>
+    <etf symbol="WFC" type="E" name="富國銀行_1L"/>
+    <etf symbol="WMT" type="E" name="WalMart_1L"/>
+    <etf symbol="WOOD" type="E" name="S&amp;P全球木材林業_1L"/>
+    <etf symbol="XLB" type="E" name="史單普原物料_1L"/>
+    <etf symbol="XLE" type="E" name="史單普能源業_1L"/>
+    <etf symbol="XLF" type="E" name="史單普金融_1L"/>
+    <etf symbol="XLI" type="E" name="史單普工業_1L"/>
+    <etf symbol="XLK" type="E" name="史單普科技_1L"/>
+    <etf symbol="XLP" type="E" name="消費行業X_1L"/>
+    <etf symbol="XLU" type="E" name="S&amp;P500公用事業_1L"/>
+    <etf symbol="XLV" type="E" name="史單普健保_1L"/>
+    <etf symbol="XME" type="E" name="標準普爾金屬採礦_1L"/>
+    <etf symbol="XOP" type="E" name="石油與天然氣探勘生產_1L"/>
+    <etf symbol="YUM" type="E" name="肯德雞_1L"/>
+    <etf symbol="01001T.TW" type="T" name="富邦R1_1TW" disabled="T" notes="TOO MANY WRONG DATA" />
+    <etf symbol="1101.TW" type="T" name="台泥_1TW"/>
+    <etf symbol="1102.TW" type="T" name="亞泥_1TW"/>
+    <etf symbol="1210.TW" type="T" name="大成_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="1215.TW" type="T" name="卜蜂_1TW"/>
+    <etf symbol="1216.TW" type="T" name="統一_1TW"/>
+    <etf symbol="1232.TW" type="T" name="大統益_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="1301.TW" type="T" name="台塑_1TW"/>
+    <etf symbol="1303.TW" type="T" name="南亞_1TW"/>
+    <etf symbol="1308.TW" type="T" name="亞聚_1TW"/>
+    <etf symbol="1326.TW" type="T" name="台化_1TW"/>
+    <etf symbol="1402.TW" type="T" name="遠紡_1TW"/>
+    <etf symbol="1434.TW" type="T" name="福懋_1TW"/>
+    <etf symbol="1473.TW" type="T" name="台南_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="1477.TW" type="T" name="聚陽_1TW"/>
+    <etf symbol="1614.TW" type="T" name="三洋電_1TW"/>
+    <etf symbol="1709.TW" type="T" name="和益_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="1710.TW" type="T" name="東聯_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="1714.TW" type="T" name="和桐_1TW"/>
+    <etf symbol="1717.TW" type="T" name="長興_1TW"/>
+    <etf symbol="1720.TW" type="T" name="生達_1TW"/>
+    <etf symbol="1723.TW" type="T" name="中碳_1TW"/>
+    <etf symbol="1726.TW" type="T" name="永記_1TW"/>
+    <etf symbol="2002.TW" type="T" name="中鋼_1TW"/>
+    <etf symbol="2002A.TW" type="T" name="中鋼特_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="2006.TW" type="T" name="東鋼_1TW"/>
+    <etf symbol="2013.TW" type="T" name="中鋼構_1TW"/>
+    <etf symbol="2014.TW" type="T" name="中鴻_1TW"/>
+    <etf symbol="2029.TW" type="T" name="盛餘_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="2103.TW" type="T" name="台橡_1TW"/>
+    <etf symbol="2104.TW" type="T" name="中橡_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="2105.TW" type="T" name="正新_1TW"/>
+    <etf symbol="2308.TW" type="T" name="台達電_1TW"/>
+    <etf symbol="2317.TW" type="T" name="鴻海_1TW"/>
+    <etf symbol="2330.TW" type="T" name="台積電_1TW"/>
+    <etf symbol="2357.TW" type="T" name="華碩_1TW"/>
+    <etf symbol="2382.TW" type="T" name="廣達_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="2395.TW" type="T" name="研華_1TW"/>
+    <etf symbol="2412.TW" type="T" name="中華電_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="2441.TW" type="T" name="超豐_1TW"/>
+    <etf symbol="2454.TW" type="T" name="聯發科_1TW"/>
+    <etf symbol="2603.TW" type="T" name="長榮海_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="2609.TW" type="T" name="陽明_1TW"/>
+    <etf symbol="2615.TW" type="T" name="萬海_1TW"/>
+    <etf symbol="2618.TW" type="T" name="長榮航_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="2851.TW" type="T" name="中再保_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="2881.TW" type="T" name="富邦金_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="2882.TW" type="T" name="國泰金_1TW"/>
+    <etf symbol="2885.TW" type="T" name="元大金_1TW"/>
+    <etf symbol="2886.TW" type="T" name="兆豐金_1TW"/>
+    <etf symbol="2906.TW" type="T" name="高林_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="2912.TW" type="T" name="統一超_1TW"/>
+    <etf symbol="2915.TW" type="T" name="潤泰全_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="3044.TW" type="T" name="健鼎_1TW"/>
+    <etf symbol="3045.TW" type="T" name="台灣大_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="4904.TW" type="T" name="遠傳_1TW"/>
+    <etf symbol="6277.TW" type="T" name="宏正_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="6505.TW" type="T" name="台塑化_1TW"/>
+    <etf symbol="8926.TW" type="T" name="台汽電_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="9905.TW" type="T" name="大華_1TW" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="9914.TW" type="T" name="美利達_1TW"/>
+    <etf symbol="9917.TW" type="T" name="中保_1TW"/>
+    <etf symbol="9921.TW" type="T" name="巨大_1TW"/>
+    <etf symbol="9925.TW" type="T" name="新保_1TW" notes="TOO MANY WRONG DATA" />
+    <etf symbol="9927.TW" type="T" name="泰銘_1TW"/>
+    <etf symbol="9930.TW" type="T" name="中聯資_1TW"/>
+    <etf symbol="9940.TW" type="T" name="信義_1TW"/>
+    <etf symbol="9941.TW" type="T" name="裕融_1TW"/>
+    <etf symbol="9942.TW" type="T" name="茂順_1TW"/>
+    <etf symbol="9945.TW" type="T" name="潤泰新_1TW"/>
+    <etf symbol="FXE" type="U" name="歐元_1L"/>
+    <etf symbol="FXY" type="U" name="日圓_1L"/>
+    <etf symbol="UDN" type="U" name="美元空頭_1S"/>
+    <etf symbol="UUP" type="U" name="美元多頭_1L"/>
+    <etf symbol="^AORD" type="X" name="澳洲_idx"/>
+    <etf symbol="^BSESN" type="X" name="印度_idx"/>
+    <etf symbol="^BVSP" type="X" name="巴西_idx" disabled="T" notes="Lt LOSS TRAINING FAIL"/>
+    <etf symbol="^DJI" type="X" name="道瓊工業_idx"/>
+    <etf symbol="^FCHI" type="X" name="法國CAC40_idx"/>
+    <etf symbol="^FTSE" type="X" name="英國FTSE100_idx"/>
+    <etf symbol="^GDAXI" type="X" name="德國DAX_idx"/>
+    <etf symbol="^GSPC" type="X" name="S&amp;P500_idx"/>
+    <etf symbol="^GSPC_tst" type="X" name="S&amp;P500tst_idx" disabled="T" />
+    <etf symbol="^HSI" type="X" name="香港恆生_idx"/>
+    <etf symbol="^IXIC" type="X" name="那斯達克_idx"/>
+    <etf symbol="^KLSE" type="X" name="馬來西亞_idx"/>
+    <etf symbol="^KS11" type="X" name="南韓綜合_idx"/>
+    <etf symbol="^N225" type="X" name="日經指數_idx"/>
+    <etf symbol="^RUT" type="X" name="羅素2000指數_idx"/>
+    <etf symbol="^SOX" type="X" name="費城半導體_idx"/>
+    <etf symbol="^STI" type="X" name="新加坡海峽_idx"/>
+    <etf symbol="^TWII" type="X" name="台灣加權指數_idx"/>
+    <etf symbol="^TYX" type="X" name="美30年債殖利率_idx" notes="Lt LOSS TRAINING FAIL"/>
+	<etf symbol="00878.TW" type="T" name="國泰永續高股息_1TW" notes="高股息,最大" /> 
+    <etf symbol="00713.TW" type="T" name="元大台灣高息低波_1TW" notes="高股息,小貴,表現好, Lt LOSS TRAINING FAIL" />
+    <etf symbol="00731.TW" type="T" name="FH富時高息低波_1TW"/>
+    <etf symbol="00905.TW" type="T" name="FT臺灣Smart_1TW" disabled="T" notes="CSV LEN TOO SHORT" />
+    <etf symbol="00908.TW" type="T" name="富邦入息REITs_1TW" disabled="T" notes="CSV LEN TOO SHORT" />
+    <etf symbol="00885.TW" type="T" name="越南_1TW" disabled="T" notes="CSV LEN TOO SHORT" />
+    <etf symbol="00888.TW" type="T" name="永豐台灣ESG永續優質_1TW" disabled="T" notes="成立時間短" />  
+	<etf symbol="0050.TW" type="T" name="台灣卓越50_1TW"/>
+	<etf symbol="0056.TW" type="T" name="寶來台灣高股息_1TW" notes="Lt LOSS TRAINING FAIL"/>
+	<etf symbol="1231.TW" type="T" name="聯華食" />
+	<etf symbol="4205.TWO" type="T" name="中華食" notes="興櫃食品" />
+	<etf symbol="3008.TW" type="T" name="大立光" notes="鏡頭" />
+	<etf symbol="4958.TW" type="T" name="臻鼎" notes="PCB" />
+	<etf symbol="3037.TW" type="T" name="欣興" notes="IC板" />
+	<etf symbol="1736.TW" type="T" name="喬山" notes="健康科技" />
+	<etf symbol="2421.TW" type="T" name="建準" notes="風扇" />
+	<etf symbol="8464.TW" type="T" name="億豐" notes="窗簾" />
+	<etf symbol="00679B.TWO" type="T" name="元大美債20年_1TW"/>
+	<etf symbol="00711B.TW" type="T" name="FH彭博新興債_1TW" />
+	<etf symbol="00720B.TWO" type="T" name="元大投資級公司債_1TW"/>
+	<etf symbol="00725B.TWO" type="T" name="國泰投資級公司債_1TW"/>
+	<etf symbol="00740B.TWO" type="T" name="富邦全球投等債_1TW"/>
+	<etf symbol="00756B.TWO" type="T" name="群益15年EM主權債_1TW"/>
+	<etf symbol="00772B.TWO" type="T" name="中信高評級公司債_1TW"/>
+	<etf symbol="00773B.TWO" type="T" name="中信優先金融債_1TW"/>
+</config>

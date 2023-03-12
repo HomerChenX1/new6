@@ -1,0 +1,31 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    // "python.linting.pylintUseMinimalCheckers": true,
+    "python.linting.lintOnSave": true,
+    // "python.linting.pylintArgs": ["--load-plugins", "pylint_django" ],
+    // "autoDocstring.docstringFormat": "google",
+    "python.formatting.provider": "yapf",
+    // 存檔時, formating
+    "editor.formatOnSave": true,
+    // 打完python的一行程式碼按Enter, formating
+    "editor.formatOnType": true,
+    // editor.formatOnPaste: true,
+    // "python.testing.promptToConfigure": false,  // 只有寫完程式後才設為 false
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.unittestEnabled": false, // 只有寫完程式後才設為 true
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    // "One Dark Pro", "Monokai", "Solarized Dark"
+    "workbench.colorTheme": "Solarized Light",
+    "autoDocstring.docstringFormat": "sphinx",
+    "python.analysis.typeCheckingMode": "basic"
+	
+}
