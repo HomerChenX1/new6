@@ -28,7 +28,7 @@ MA_MT_MAX: int = 6 * Cf.MONTH_DAY
 MA_ST_MAX: int = 3 * Cf.MONTH_DAY
 MA_ST_MIN: int = 3
 #global_variable
-LT_TRAINING_TRY: bool = True
+LT_TRAINING_TRY: bool = False
 LT_DRAW: bool = True
 ENABLE_PREDICT: bool = True
 
@@ -147,7 +147,7 @@ class Lt(IMethod, LtSave):
         #     f"lt train3p {self.filt_long}, {self.filt_short}, {self.only_buy}, {self.o_eval.tot_profit}, {self.o_eval.tot_profit*self.o_eval.kelly}"
         # )
 
-        if self.o_etf.symbol in ["VT", "VTI", "^GSPC_tst"
+        if self.o_etf.symbol in ["VT", "VTI", "^GSPC_tst", "^TWII"
                                  ] and LT_DRAW:  #type: ignore
             DaoPlots.draw_lines(self.o_etf.symbol + "_" + self.alias,
                                 self.o_etf.lt_indicator, self.draw_arrays)
@@ -209,7 +209,8 @@ class Lt(IMethod, LtSave):
                                            self.hold_day_thd)
                 self.o_eval.training_fix(self.o_etf.etf_type)  #type: ignore
                 for filt_buy in [
-                        self.o_cf.FILT_BULL_BEAR, self.o_cf.FILT_BULL_ONLY, self.o_cf.FILT_BEAR_ONLY
+                        self.o_cf.FILT_BULL_BEAR, self.o_cf.FILT_BULL_ONLY,
+                        self.o_cf.FILT_BEAR_ONLY
                 ]:
                     self.only_buy = filt_buy
                     #start calculate
@@ -329,7 +330,7 @@ class Lt(IMethod, LtSave):
         self.st_indicator = short_data - long_data  #type:ignore
 
         if self.alias == "Lt" and self.o_etf.symbol in [  #type:ignore
-                "VT", "VTI", "^GSPC_tst"
+                "VT", "VTI", "^GSPC_tst", "^TWII"
         ]:
             self.print_msg(
                 f"closed value: short {short_data[0]}, long {long_data[0]}"  #type: ignore
@@ -366,23 +367,25 @@ def test_lt(obj_cf, dao_db, etf) -> None:
     :param etf: Accmulated result data
     :type etf: EtfCalc
     """
+    global LT_DRAW
     m_lt = Lt(obj_cf, dao_db)
     m_lt.post_init_load(etf)
     #print(m_lt)
     m_lt.training_flag = True
     m_lt.prepare_training().training()
     test_result = [
-        m_lt.filt_long == 391, m_lt.filt_short == 64, m_lt.only_buy == 1
+        m_lt.filt_long == 259, m_lt.filt_short == 30, m_lt.only_buy == 1
     ]
     assert all(test_result), "training fail 1"
-    if not _chk_almost(m_lt.o_eval.avg_profit_yr, 0.083573, 0.0001):
+    if not _chk_almost(m_lt.o_eval.avg_profit_yr, 0.093012, 0.0001):
         print("training fail 2!")
-    m_lt.training_flag = False
+    #m_lt.training_flag = False
     m_lt.calc()
     assert all(test_result), "training fail 3"
-    if not _chk_almost(m_lt.o_eval.avg_profit_yr, 0.081889, 0.0001):
+    if not _chk_almost(m_lt.o_eval.avg_profit_yr, 0.0907279, 0.0001):
         print("training fail 4!")
     # store self.only_buy and filter parameter to LtSave if training
+    LT_DRAW = False
     m_lt.store()  # store m_eval
 
 
@@ -395,6 +398,10 @@ if __name__ == '__main__':
     #setup EtfLoad
     etf_load = EtfLoad(cf_main)
     obj_etf = EtfCalc()
+    etf_load.dao_db.row_add_to_dbconf(obj_etf)
+    # need copy_from()
+    # obj_etf.copy_from(o_etf)
+
     etf_load.post_init_load(obj_etf)
     if etf_load.csv_data[0][0] != '2009/03/17':
         print("the last date is incorrect!")

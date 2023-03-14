@@ -185,7 +185,7 @@ if __name__ == '__main__':
         else:
             test_etfs = [
                 x_etf for x_etf in o_init_conf.all_etfs
-                if x_etf.symbol in ["VT", "VTI"]
+                if x_etf.symbol in ["VT", "VTI", "^TWII"]
             ]
 
         mth_argvs = [

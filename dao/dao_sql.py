@@ -95,7 +95,7 @@ class DaoDb():
             row.cname = o_etf.cname
             row.disabled = o_etf.disabled
             row.notes = o_etf.notes
-            o_etf.hash_id = row.id
+            #o_etf.hash_id = row.id
         else:
             #else insert o_etf
             new_row = DbConf(o_etf)

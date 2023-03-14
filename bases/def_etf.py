@@ -70,7 +70,7 @@ class MthdView():
     """
     def __init__(self) -> None:
         self.m_rank: float = -1
-        self.curr_mrkt: int = 1
+        #self.curr_mrkt: int = 1
         self.day_ago: int = -1
         self.day_ago_dec: int = -2
         self.day_ago_nav: float = -1

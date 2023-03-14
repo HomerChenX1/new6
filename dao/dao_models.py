@@ -37,6 +37,7 @@ def db_id_mapping(etf_id: int, alias: str) -> int:
     d_mapper: dict = {"Lt": DB_LT, "Rsi": DB_RSI, "Md": DB_MD, "Kd": DB_KD}
     return etf_id + d_mapper[alias]
 
+
 def db_name_to_table(alias: str):
     """map the table name to Table class
 
@@ -106,7 +107,7 @@ class DbMthdView(DBase):
     id = Column(Integer, primary_key=True,
                 autoincrement=False)  # method id, m_id from different method
     m_rank = Column(Float, default=-1)
-    curr_mrkt = Column(Integer, default=-2)
+    #curr_mrkt = Column(Integer, default=-2)
     day_ago = Column(Integer)
     day_ago_dec = Column(Integer)
     day_ago_nav = Column(Float)

@@ -39,7 +39,7 @@ class ConfErrorNo:
     LT_TRAINING_FAIL: int = -4
     STOP_LOSS_TRAINING_FAIL: int = -5
     NEED_NOT_TRAINING: int = -6
-    CURR_MRKT_NOT_MATCH: int = -7
+    #CURR_MRKT_NOT_MATCH: int = -7
     MIN_SHARES_TOO_SMALL: int = -5
 
 
